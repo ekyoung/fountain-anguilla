@@ -1,0 +1,75 @@
+
+<script type="text/javascript">
+
+
+$(document).ready(function(){
+	console.log("Script Started");
+	
+	if (location.pathname.indexOf("/details.aspx") > -1 || location.pathname.indexOf("/ref") > -1 ){
+var arrival = "[setarrival]";
+var depart = "[setdepart]";
+
+//$("#Quoter #ifrm").css("width", "100%");
+
+if (arrival != "01/01/0001"){
+	try {
+        $("#DateFrom").val("[setarrival]");
+		console.log("Arrival Quote Set");
+    }
+    catch(err) {
+        console.log("Arrival Quote Field Not Found");
+    }
+}
+
+if (depart != "01/01/0001"){
+	try {
+        $("#DateTo").val("[setdepart]");
+		console.log("Depart Quote Set");
+    }
+    catch(err) {
+        console.log("Depart Quote Field Not Found");
+    }
+}
+
+/*if ((depart == "[setdepart]") && (arrival == "[setarrival]")){
+	
+	try {
+        $("div.price").parent().html("<span class="price">From <span class="higlight emphasize value">[priceinctax]</span> a [rateTypewdm]</span>");
+		console.log("price placed");
+    }
+    catch(err) {
+        console.log("price NOT placed");
+    }
+}*/
+
+
+	}
+	
+
+/*var beds = "[bedrooms]"
+try {
+	if (beds > 0){
+			$("#Bedrooms").val(beds);
+			console.log("Beds Set");
+	}
+	}
+catch(err) {
+	console.log("Beds NOT Set");
+}
+
+var sleeps = "[sleeps]"
+
+try {
+	if (sleeps > 0){
+			$("#Sleeps").val(sleeps);
+			console.log("Sleeps Set");
+	}
+	}
+catch(err) {
+	console.log("Sleeps NOT Set");
+}*/
+
+});
+
+
+</script>
