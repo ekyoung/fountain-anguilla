@@ -1,0 +1,264 @@
+<link href="/WebTemplates/[websiteuserid]/includes/css/style.css" rel="stylesheet" />
+
+<!--Ethan's fountain edit-->
+<section class="slider-box parslide">
+    <div class="slider-mask"></div>
+    <div class="custom-controls">
+        <div class="shadow">
+            <div class="slider-helper">
+                <div class="carousel slide" id="carousel-example-generic" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li class="active" data-target="#carousel-example-generic" data-slide-to="0"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img alt="img Luxury room" src="/WebTemplates/[websiteuserid]/images/Layer01.png" />
+                            <!--  <div class="carousel-caption hidden-xs hidden-sm">
+                                  <p class="title-up fadeInDownBig">Special Offer</p>
+                                  <h1><span>Luxury</span> <em>Room</em></h1>
+                                  <p class="slide-subtitle">from only $168 / night</p>
+                                  <div class="button-slide">
+                                      <a class="btn-more" href="#">Learn more</a>
+                                  </div>
+                              </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> <!--.slider-box -->
+<section id="check-room">
+    <div class="container">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 check-room">
+            <div class="form">
+                <div class="col-xs-12 col-md-9 custom-form">
+                    <div class="col-xs-6 col-sm-3 col-md-3 adults group">
+                        <h4>Destination</h4>
+                        <div class="mylabel">
+                            <div class="mylabel">
+                                <select class="ul-room-2 locationID">
+                                    <option />Any
+                                    [locationlist]
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-3 col-md-3 arrival group">
+                        <h4>Arrival Date</h4>
+                        <label class="add-on" for="for1"><i class="ion-android-calendar date1"></i></label>
+                        <input name="arrive" class="dateclick DateFrom" id="DateFrom" type="text" placeholder="mm/dd/yyyy" value="" />
+                    </div>
+                    <div class="col-xs-6 col-sm-3 col-md-3 departure group">
+                        <h4>Departure Date</h4>
+                        <label class="add-on" for="for2"><i class="ion-android-calendar date2"></i></label>
+                        <input name="depart" class="dateclick DateTo" id="DateTo" type="text" placeholder="mm/dd/yyyy" value="" />
+                    </div>
+                    <div class="col-xs-6 col-sm-3 col-md-3 room group">
+                        <h4>Guests</h4>
+                        <div class="mylabel">
+                            <select class="ul-room-2 Sleeps">
+                                <option />Any
+                                <option value="1" />1
+                                <option value="2" />2
+                                <option value="3" />3
+                                <option value="4" />4
+                                <option value="5" />5
+                                <option value="6" />6
+                                <option value="7" />7
+                                <option value="8" />8
+                                <option value="9" />9
+                                <option value="10" />10
+                                <option value="11" />11
+                                <option value="12" />12
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3  bookbtn group" onclick="smit();">
+                    <a class="btn-check" href="javascript:void(0)"><span>Check</span><br /> Availability</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<main>
+    <section id="why_choose_us">
+        <div class="container">
+            <div class="row">
+                <h3>Welcome</h3>
+                <p>Tired of endless searching through vacation rental websites? Welcome to Refined Retreats! We make the impersonal internet search personal. <br /></p>
+                <p>
+                    Call us and we will guide you to the best villa options on the island based on your unique requirements. Vacations should not be stressful and neither should the planning process. It's hard to know if what you see is what you will actually get when you arrive. Not with Refined Retreats. We have personally vetted every property we list and all are maintained to our exacting standards. We also have on island concierge service to arrange for your specific needs.<br />
+                </p>
+                <p>
+                    Give us a call so you can relax!
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- <section id="why_choose_us">
+           <div class="container">
+               <div class="row">
+                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                       <h3>Why choose amberly</h3>
+                       <div class="row">
+                           <div class="post col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                               <div class="img_zoom">
+                                   <img class="wow fadeInLeft img-responsive" alt="Bringing the best experience" src="/WebTemplates/[websiteuserid]/images/why-1.jpg" data-wow-duration="2s" />
+                               </div>
+                               <div class="text-col">
+                                   <h4>Bringing the best experience</h4>
+                                   <p>Vestibulum felis felis, volutpat eu venenatis ut, pharetra at sapien. Pellentesque accumsan aliquet leo, in feugiat odio dapibus ut. Nunc sem enim, pulvinar sed enim eget, iaculis lacinia est.</p>
+                                   <div class="btn-readmore">
+                                       <i class="fa fa-caret-right"></i>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="post col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                               <div class="img_zoom">
+                                   <img class="wow fadeInRight img-responsive" alt="Friendly &amp; Helpful Staff" src="/WebTemplates/[websiteuserid]/images/why-2.jpg" data-wow-duration="2s" />
+                               </div>
+                               <div class="text-col">
+                                   <h4>Friendly &amp; Helpful Staff</h4>
+                                   <p>Vestibulum felis felis, volutpat eu venenatis ut, pharetra at sapien. Pellentesque accumsan aliquet leo, in feugiat odio dapibus ut. Nunc sem enim, pulvinar sed enim eget, iaculis lacinia est.</p>
+                                   <div class="btn-readmore">
+                                       <i class="fa fa-caret-right"></i>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="post col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                               <div class="img_zoom">
+                                   <img class="wow fadeInRight img-responsive" alt="Friendly &amp; Helpful Staff" src="/WebTemplates/[websiteuserid]/images/why-3.jpg" data-wow-duration="2s" />
+                               </div>
+                               <div class="text-col">
+                                   <h4>Brining you a vacation to remeber</h4>
+                                   <p>Vestibulum felis felis, volutpat eu venenatis ut, pharetra at sapien. Pellentesque accumsan aliquet leo, in feugiat odio dapibus ut. Nunc sem enim, pulvinar sed enim eget, iaculis lacinia est.</p>
+                                   <div class="btn-readmore">
+                                       <i class="fa fa-caret-right"></i>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>-->
+    <section id="checkout_room">
+        <div class="container-fluid" id="checkoutroom">
+            <div class="row">
+                <div id="content-room">
+                    <div class="row">
+                        [fp1][fp2][fp3][fp4][fp5][fp6]
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="heading img-border">
+                    <i class="fa fa-quote-left"></i>
+                    <h2>Here is what some of our past guests have to say</h2>
+                </div>
+                <div class="text">
+                    <div class="carousel slide" id="carousel-example-generics" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li class="active" data-target="#carousel-example-generics" data-slide-to="0"></li>
+                            <li data-target="#carousel-example-generics" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generics" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 item active">
+                                <span class="pi">Looking last minute for place to take the family between X-mas and New Year. Nothing available in St. Martin until Sherri found me the perfect apartment. Absolutely gorgeous views from everywhere. Clean and comfortable. That along with the help of Cassie who helped arrange outings, cars, stocking fridge was the icing on the cake for a great vacation.</span>
+                                <div class="carousel-captions wow zoomIn">
+                                    <div class="col-xs-6 col-sm-6 col-md-6">
+                                    </div>
+                                    <div class="sub-name col-xs-6 col-sm-6 col-md-6">
+                                        <h4>Laurance</h4>
+                                        <span>Marblehead, MA </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 item">
+                                <span class="pi">Sherri and team did a great job! I would highly recommend them for any vacation needs...</span>
+                                <div class="carousel-captions wow zoomIn">
+                                    <div class="col-xs-6 col-sm-6 col-md-6">
+                                    </div>
+                                    <div class="sub-name col-xs-6 col-sm-6 col-md-6">
+                                        <h4>Jay S</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 item">
+                                <span class="pi">The place was beautiful and the owner/manager were very accommodating. We arrived a day late due to travel difficulties and they offered to let us stay an extra day. The short walk to Shoal Bay was breathtaking and easy. We would definitely stay there again. Sherri did a great job! Thank you.</span>
+                                <div class="carousel-captions">
+                                    <div class="col-xs-6 col-sm-6 col-md-6">
+                                    </div>
+                                    <div class="sub-name col-xs-6 col-sm-6 col-md-6">
+                                        <h4>Barbara</h4>
+                                        <span>Lincoln, NE</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  <section id="service">
+           <div class="container ourservice img-border">
+               <h2>Our Service</h2>
+               <div class="row">
+                   <div class="col-xs-12 col-sm-12 col-md-4"></div>
+                   <div class="col-xs-12 col-sm-12 col-md-8 col-content">
+                       <div class="row">
+                           <div class="col-xs-12 col-sm-6 col-md-6">
+                               <i class="col-xs-3 col-sm-3 col-md-3 ion ion-wifi wow zoomIn box-dotted"></i>
+                               <div class="border-dotted"></div>
+                               <div class="col-xs-9 col-sm-9 col-md-9 service1">
+                                   <h4>Free Wifi Accessible</h4>
+                                   <span class="pi">Mauris ultricies nisi eget velit bibendum, sit amet euismod mi </span>
+                                   <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque non laoreet risus, id elementum purus.</p>
+                               </div>
+                           </div>
+                           <div class="col-xs-12 col-sm-6 col-md-6">
+                               <i class="col-xs-3 col-sm-3 col-md-3 ion-model-s wow zoomIn box-dotted"></i>
+                               <div class="border-dotted"></div>
+                               <div class="col-xs-9 col-sm-9 col-md-9 service1">
+                                   <h4>Car Park &amp; Valet Parking</h4>
+                                   <span class="pi">Mauris ultricies nisi eget velit bibendum, sit amet euismod mi </span>
+                                   <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque non laoreet risus, id elementum purus.</p>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="row">
+                           <div class="col-xs-12 col-sm-6 col-md-6">
+                               <i class="col-xs-3 col-sm-3 col-md-3 ion-leaf wow zoomIn box-dotted"></i>
+                               <div class="border-dotted"></div>
+                               <div class="col-xs-9 col-sm-9 col-md-9 service1">
+                                   <h4>Spa Treatments &amp; Massage</h4>
+                                   <span class="pi">Mauris ultricies nisi eget velit bibendum, sit amet euismod mi </span>
+                                   <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque non laoreet risus, id elementum purus.</p>
+                               </div>
+                           </div>
+                           <div class=" col-xs-12 col-sm-6 col-md-6">
+                               <i class="col-xs-3 col-sm-3 col-md-3 ion-ios-wineglass wow zoomIn box-dotted"></i>
+                               <div class="border-dotted"></div>
+                               <div class="col-xs-9 col-sm-9 col-md-9 service1">
+                                   <h4>Free Wifi Accessible</h4>
+                                   <span class="pi">Mauris ultricies nisi eget velit bibendum, sit amet euismod mi </span>
+                                   <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque non laoreet risus, id elementum purus.</p>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>-->
+    <script src="/WebTemplates/[websiteuserid]/includes/js/smit.js" type="text/javascript"></script>
+</main>
