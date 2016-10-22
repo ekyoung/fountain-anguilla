@@ -384,22 +384,19 @@ img.iclflag{
 }
 /*******************************************MAIN NAV***************************************************/
 .main-nav {
-  float: left;
-  position: relative;
-  width: 100%;
-  z-index: 99;
+  z-index: 1;
 }
 #logo{
-  padding-top: 54px;
+  padding-top: 36px;
+  float: left;
+  width: 370px;
 }
 /****NAVBAR****/
-.nav-right {
-  padding-top: 8px;
-  position: relative;
+.navbar {
+  margin: 0px;
 }
-.navbar-nav {
-  position: relative;
-  right: -59px;
+.navbar-right {
+  margin: 0px;
 }
 .navbar-nav > li > a {
   padding: 67px 0px 55px;
@@ -1552,9 +1549,6 @@ width: 270px;
   }
 }
 @media only screen and (min-width: 1170px){
-  #logo{
-    padding-top: 54px;
-  }
   .slider-helper .item.active > img {
     height: 672px;
   }
@@ -1572,9 +1566,6 @@ width: 270px;
   .item.active > img {
     margin-left: auto;
     margin-right: auto;
-  }
-  #logo{
-    padding-top: 54px;
   }
   .slider-helper .item.active > img {
     height: 672px;

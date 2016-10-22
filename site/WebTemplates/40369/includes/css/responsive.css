@@ -51,6 +51,10 @@
 	.slider-helper .carousel-caption{
 		margin-bottom: -29px;
 	}
+	#logo {
+		width: 293px;
+		padding-top: 44px;
+	}
 }
 @media screen and (max-width:980px){
 	.homepage .slider-box img {
@@ -83,7 +87,7 @@
 		padding-bottom: 30px;
 	}
     #logo {
-            padding-bottom: 63px;
+        padding-bottom: 63px;
     }
 
 	.slider-helper .carousel-caption{
@@ -152,9 +156,8 @@
 	    width: 700px;
 	}
     #logo {
-    padding-top: 54px;
-    padding-bottom: 116px;
-}
+	    padding-bottom: 116px;
+	}
 	.group h4{
 		padding-top: 15px;
     	padding-bottom: 13px;
@@ -308,9 +311,8 @@
 	    margin-bottom: 0px;
 	}
     #logo {
-    padding-top: 54px;
-    padding-bottom: 146px;
-}
+	    padding-bottom: 146px;
+	}
 	.contact_page.parslide {
 	    margin: -350px auto 0;
 	}
@@ -350,9 +352,8 @@
 	    margin-top: 20px;
 	}
     #logo {
-    padding-top: 54px;
-    padding-bottom: 169px;
-}
+	    padding-bottom: 169px;
+	}
 	#check-room {
 	    margin-top: 0;
 	}
@@ -393,9 +394,8 @@
 	    width: 390px;
 	}
     #logo {
-    padding-top: 54px;
-    padding-bottom: 187px;
-}
+    	padding-bottom: 187px;
+	}
 	.homepage .slider-box h1 {
 	    font-size: 30px;
 	}
@@ -428,9 +428,8 @@
 	    margin-bottom: -10px;
 	}
     #logo {
-    padding-top: 54px;
-    padding-bottom: 209px;
-}
+	    padding-bottom: 209px;
+	}
 	#questions .wow{
 		width: 17%;
 	}

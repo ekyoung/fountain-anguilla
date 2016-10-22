@@ -381,10 +381,6 @@ img.iclflag{
   padding-top: 8px;
   position: relative;
 }
-.navbar-nav {
-  position: relative;
-  right: -59px;
-}
 .navbar-nav > li > a {
   padding: 67px 0px 55px;
   font-family: 'Lato', sans-serif, serif;
