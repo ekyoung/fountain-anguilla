@@ -596,7 +596,7 @@ p.slide-subtitle {
 .group h4 {
   color: #fff;
   font-family: 'Lato', sans-serif, serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   padding-top: 22px;
   padding-bottom: 13px;
@@ -1697,7 +1697,7 @@ width: 270px;
   #why_choose_us {
     width: 100%;
     float: left;
-    margin-top: 50px;
+    margin-top: 25px;
   }
   .button-ok {
     margin-left: auto;
