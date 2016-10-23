@@ -642,15 +642,19 @@ main{
   width: 100%;
   float: left;
 }
+.copy p {
+  line-height: 2;
+  margin-bottom: 20px;
+}
 /************WHY CHOOSE US***************/
 #why_choose_us {
     width: 100%;
     float: left;
-    margin-top: -64px;
+    margin-top: -50px;
     margin-bottom: 60px;
 }
 #why_choose_us h3{
-  padding-top: 22px;
+  padding: 22px 0;
 }
 #why_choose_us i{
   color: #8a9bad;
