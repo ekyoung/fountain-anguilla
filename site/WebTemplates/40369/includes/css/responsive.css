@@ -36,9 +36,6 @@
 	}
 }
 @media screen and (max-width:1024px){
-	.homepage .slider-box img{
-		height: 500px !important;
-	}
 	.homepage .parslide .carousel-caption{
 		margin-bottom: 100px;
 	}
@@ -57,9 +54,6 @@
 	}
 }
 @media screen and (max-width:980px){
-	.homepage .slider-box img {
-	    height: 400px !important;
-	}
 	.homepage .parslide .carousel-caption{
 		display: block !important;
 		margin-bottom: 75px;
@@ -338,9 +332,6 @@
 @media screen and (max-width:480px){
 	.container, body.mapsearch_page .container {
 	    width: 440px;
-	}
-	.homepage .slider-box img {
-	    height: 285px !important;
 	}
 	.homepage .parslide .carousel-caption {
 	    margin-bottom: 15px;

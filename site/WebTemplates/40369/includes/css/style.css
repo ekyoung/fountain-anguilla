@@ -292,6 +292,8 @@ em{
 header {
   position: relative;
   width: 100%;
+  background-color: rgba(12, 35, 64, 0.5);
+  z-index: 1;
 }
 .CiiRUSLogin {
     color: white !important;
@@ -300,10 +302,10 @@ header {
 .top-header {
   position: relative;
   z-index: 1;
-  margin-top: 15px;
 }
 .top-header ul {
   float: right;
+  margin-top: 15px;
 }
 .top-header li {
   float: left;
@@ -661,9 +663,6 @@ main{
 }
 .post{
   padding-top: 45px;
-}
-.carousel-indicators {
-    display: none !important;
 }
 .img_zoom {
   overflow: hidden;
@@ -1549,9 +1548,6 @@ width: 270px;
   .slider-helper .item.active > img {
     height: 672px;
   }
-  .carousel-inner > .item > img, .carousel-inner > .item > a > img{
-    height: 672px;
-  }
   .parslide {
     margin: -300px auto 0;
     overflow: hidden;
@@ -1621,9 +1617,6 @@ width: 270px;
     position: relative;
     width: 100%;
   }
-  .slider-box img{
-    height: 672px!important;
-  }
   #logo img {
     margin-top: 60px;
   }
@@ -1635,11 +1628,6 @@ width: 270px;
     position: absolute;
     right: 15px;
     top: 62px;
-  }
-  .slider-box img {
-    /*border: 10px solid #fff;*/
-    height: 670px !important;
-    width: 100%;
   }
   #contact img{
     height: 570px;
