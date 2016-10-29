@@ -292,7 +292,7 @@ em{
 header {
   position: relative;
   width: 100%;
-  background-color: rgba(12, 35, 64, 0.5);
+  background-color: rgba(256, 256, 256, 0.7);
   z-index: 1;
 }
 .CiiRUSLogin {
@@ -311,7 +311,7 @@ header {
   float: left;
   margin-left: 26px;
   font-size: 15px;
-  color: #ffffff;
+  color: #2568A7;
 }
 .top-header i {
   margin-right: 5px;
@@ -364,7 +364,6 @@ img.iclflag{
   z-index: 1;
 }
 #logo{
-  padding-top: 36px;
   float: left;
   width: 370px;
 }
@@ -375,24 +374,27 @@ img.iclflag{
 .navbar-right {
   margin: 0px;
 }
+.navbar-nav > li {
+  padding: 27px 0 40px;
+}
 .navbar-nav > li > a {
-  padding: 67px 0px 55px;
+  padding: 7px 0 5px;
   font-family: 'Amiri', serif;
   text-transform: uppercase;
   font-size: 14px;
-  color: #fff;
+  color: #2568A7;
   border-bottom: 1px solid transparent;
   background-color: transparent;
   margin-left: 30px;
   font-weight: 900;
 }
 .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus{
-  border-bottom: 1px solid #e7e7e7;
+  border-bottom: 1px solid #2568A7;
+  text-decoration: none;
   background-color: transparent;
-  color: #fff;
 }
 .navbar-nav > li > a:hover, .navbar-nav > li > a:focus{
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #2568A7;
   text-decoration: none;
   background-color: transparent
 }
