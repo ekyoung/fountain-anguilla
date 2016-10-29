@@ -1,0 +1,601 @@
+[descriptionscustomtokens]
+<link href="/WebTemplates/39617/includes/css/style-room-single-1.css" rel="stylesheet" type="text/css" />
+<link href="/WebTemplates/39617/includes/css/header.css" rel="stylesheet" type="text/css" />
+<link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet" />
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+<section class="slider-box parslide details_page">
+    <div class="slider-mask"></div>
+    <div class="custom-controls">
+        <div class="slider-helper">
+            <div class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img alt="img Luxury room" src="/WebTemplates/39617/images/bg-header.png" />
+                        <div class="carousel-caption hidden-xs hidden-sm">
+                            <h1 id="prop-title">[propertytitle]</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> <!--.slider-box -->
+<main id="main-content">
+    <div class="container">
+        <div class="row" id="content">
+            <!--Begin #content-->
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 content">
+                [customdetailspageimagegallery]
+
+
+                <div id="room-description">
+                    <!--Begin #room-description and tabs-content -->
+                    <ul class="tabs">
+                        <li class="tab-link current" data-tab="tab-description"><a href="javascript:void(0)">Description</a></li>
+                        <li class="tab-link" data-tab="tab-facilities"><a href="javascript:void(0)">Availability</a></li>
+                        <li class="tab-link" data-tab="tab-rates"><a href="javascript:void(0)">Rates</a></li>
+                        <li class="tab-link" data-tab="tab-reviews"><a href="javascript:void(0)">Reviews</a></li>
+                        <li class="tab-link" data-tab="tab-location"><a href="javascript:void(0)">Location</a></li>
+                        <li class="tab-link" data-tab="tab-amen"><a href="javascript:void(0)">Amenities</a></li>
+                        <li class="tab-link video-tour" data-tab="tab-video"><a href="javascript:void(0)">Video</a></li>
+                    </ul>
+                    <div class="tab-content current" id="tab-description">
+                        <p>
+                            [plaintext]
+                        </p>
+                    </div>
+                    <div class="tab-content" id="tab-facilities">
+                        <div id="appendAvail"></div>
+                    </div>
+                    <div class="tab-content" id="tab-rates">
+                        <div id="appendRates"></div>
+                    </div>
+                    <div class="tab-content" id="tab-reviews">
+                        <div id="appendReviews"></div>
+                    </div>
+                    <div class="tab-content" id="tab-location">
+                        <iframe width="100%" src="https://www.google.co.za/maps?t=m&amp;dg=opt&amp;ie=UTF8&amp;ll=[xco],[yco]&amp;spn=0.809147,0.826721&amp;z=16&amp;output=embed" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="height: 450px;"></iframe>
+                    </div>
+                    <div class="tab-content" id="tab-amen">
+                        [legend]
+                    </div>
+                    <div class="tab-content video-tour" id="tab-video">
+                        <div id="theVideo">[VIDEO]</div>
+                    </div>
+                </div><!--End #room-description-tabs-->
+            </div>
+            <section id="sidebar">
+                <!--Begin #sidebar-->
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                    <section id="check-room">
+                        <div class="b-form group form" id="booking-wrap">
+                            <div id="reservationform">
+                                <div class="row">
+                                    <div id="message"></div>
+                                    <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12 arrival group">
+                                        <h4>Arrival Date</h4>
+                                        <label class="add-on" for="foo"><i class="ion-android-calendar date1"></i></label>
+                                        <input name="arrive" class="form-control date-time" id="DateFrom" type="text" placeholder="mm/dd/yyyy" value="" />
+                                    </div>
+                                    <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12  departure group">
+                                        <h4>Departure Date</h4>
+                                        <label class="add-on" for="foo1"><i class="ion-android-calendar date2"></i></label>
+                                        <input name="depart" class="form-control date-time" id="DateTo" type="text" placeholder="mm/dd/yyyy" value="" />
+                                    </div>
+                                    <div id="QuotedpErrorMsg" style="color: red;"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="btn-more button-check">
+                                        <a onclick="runQuote()" href="javascript:void(0)"><span>Get Instant Quote</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="reservationform2" style="display: none;" name="reservationform">
+                                <div class="group">
+                                    <h4>Your Quote Results</h4>
+                                </div>
+                                <div class="form-group" id="newQuoteResults"></div>
+                                <p>**Please note all guests staying on the island of Anguilla will have an additional $3/ day per person Government Marketing Levy added to their stay.**</p>
+                                <div class="btn-more button-check">
+                                    <a id="book" onclick="javascript:BookIt()" href="javascript:void(0)"><span>Book Now</span></a>
+                                </div>
+                                <div class="btn-more button-check">
+                                    <a id="back" onclick="javascript:runNewQuote()" href="javascript:void(0)"><span>Quote Again</span></a>
+                                </div>
+                                <div class="btn-more button-check">
+                                    <a id="forward" onclick="javascript:shareQuote()" href="javascript:void(0)"><span>Email/Share Quote</span></a>
+                                </div>
+                            </div>
+                            <div class="reservation-vertical clearfix" id="reservationform3" style="display: none;" name="reservationform3">
+                                <div class="group">
+                                    <h4>Email/Share Quote</h4>
+                                </div>
+                                <div class="form-group">
+                                    <input name="Guest" class="form-control" id="Guest1" placeholder="Your Name" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input name="E-mail" class="form-control" id="Email1" placeholder="Your E-mail" value="" />
+                                </div>
+                                <h5>Share With A Friend </h5>
+                                <div class="form-group" id="friends">
+                                    <div class="form-group"><input name="Guest" class="form-control Guest Guest2" placeholder="Friend's Name" value="" /> </div>
+                                    <div class="form-group"><input name="E-mail" class="form-control Email Email2" placeholder="Friend's E-mail" value="" /> </div>
+                                </div>
+                                <div class="row">
+                                    <div class="btn-more button-check">
+                                        <a id="mail" onclick="javascript:emailQuote()" href="javascript:void(0)"><span>Email Quote</span></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="btn-more button-check">
+                                        <a id="book" onclick="javascript:BookIt()" href="javascript:void(0)"><span>Book Now</span></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="btn-more button-check">
+                                        <a id="back" onclick="javascript:runNewQuote()" href="javascript:void(0)"><span>Quote Again</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Quoter" style="display: none;"></div>
+                            <div id="emailQuote" style="display: none;"></div>
+                        </div>
+                    </section>
+                </div>
+            </section><!--End #sidebar-->
+        </div>
+    </div>
+    <script type="text/javascript">
+        function runQuote() {
+            var dates = "";
+            dates = myQuote();
+
+
+
+
+            if (dates.length > 1) {
+                var htm = '<iframe style="margin-left: -25px;" id="ifrmQuote" name="ifrm" src="/EmbedQuoter.aspx?PropertyID=[propertyid]&Rows=4&Cols=3' + dates + '" scrolling="auto" height="500" style="width: 100%;" frameborder="3" onload="processingComplete()">Unable to show Quoter</iframe>';
+
+                $("#Quoter").html(htm);
+
+            }
+        }
+
+        function processingComplete() {
+            $("#newQuoteResults").html($("#ifrmQuote").contents().find("#rates1_pnlQuoteResults_tbQuoteResults_C0").html());
+            $("#reservationform").slideUp(1000);
+            $("#reservationform3").slideUp(1000);
+            $("#reservationform2").slideDown(1000);
+
+
+            if ($("#newQuoteResults").html().indexOf("This property is not available for selected dates") > (-1)) {
+                $("#forward").css("display", "none");
+                $("#book").css("display", "none");
+                $('#back').attr("type", "button");
+                $("#back").text("Try Other Dates?");
+            }
+            else {
+                $("#forward").css("display", "inline-block");
+                $('#forward').attr("type", "button");
+                $("#book").css("display", "inline-block");
+                $("#back").text("New Quote");
+            }
+        }
+
+        function myQuote() {
+
+            var searchURL = "";
+            var arrive = document.getElementById('DateFrom').value;
+
+            if (arrive.length == 10) {
+                var date = arrive.split("/");
+
+                var month = ""
+                if (date.length == 3) {
+                    if (date[0] == 1) {
+                        month = "jan";
+                    }
+                    if (date[0] == 2) {
+                        month = "feb"
+                    }
+                    if (date[0] == 3) {
+                        month = "mar";
+                    }
+                    if (date[0] == 4) {
+                        month = "apr";
+                    }
+                    if (date[0] == 5) {
+                        month = "may";
+                    }
+                    if (date[0] == 6) {
+                        month = "jun";
+                    }
+                    if (date[0] == 7) {
+                        month = "jul";
+                    }
+                    if (date[0] == 8) {
+                        month = "aug";
+                    }
+                    if (date[0] == 9) {
+                        month = "sep";
+                    }
+                    if (date[0] == 10) {
+                        month = "oct";
+                    }
+                    if (date[0] == 11) {
+                        month = "nov";
+                    }
+                    if (date[0] == 12) {
+                        month = "dec";
+                    }
+                    var fullAd = date[1] + "+" + month + "+" + date[2];
+                }
+                searchURL += "&ad=" + fullAd;
+            }
+
+
+            var dep = document.getElementById('DateTo').value;
+
+            if (dep.length == 10) {
+                var date = dep.split("/");
+
+                var month = ""
+                if (date.length == 3) {
+                    if (date[0] == 1) {
+                        month = "jan";
+                    }
+                    if (date[0] == 2) {
+                        month = "feb"
+                    }
+                    if (date[0] == 3) {
+                        month = "mar";
+                    }
+                    if (date[0] == 4) {
+                        month = "apr";
+                    }
+                    if (date[0] == 5) {
+                        month = "may";
+                    }
+                    if (date[0] == 6) {
+                        month = "jun";
+                    }
+                    if (date[0] == 7) {
+                        month = "jul";
+                    }
+                    if (date[0] == 8) {
+                        month = "aug";
+                    }
+                    if (date[0] == 9) {
+                        month = "sep";
+                    }
+                    if (date[0] == 10) {
+                        month = "oct";
+                    }
+                    if (date[0] == 11) {
+                        month = "nov";
+                    }
+                    if (date[0] == 12) {
+                        month = "dec";
+                    }
+                    var fullDd = date[1] + "+" + month + "+" + date[2];
+                }
+                searchURL += "&dd=" + fullDd;
+            }
+
+            if (dep.length == 10 && arrive.length == 10) {
+                $("#QuotedpErrorMsg").html("");
+                return searchURL;
+
+            }
+            else {
+                var errMsg1 = ""
+                var errMsg2 = ""
+                if (arrive.length < 10) {
+                    errMsg1 = "*Please enter a valid Arrival Date";
+                }
+                if (dep.length < 10) {
+                    if (arrive.length < 10) {
+                        errMsg2 = "<br />";
+                    }
+                    errMsg2 += "*Please enter a valid Departure Date";
+                }
+                $("#QuotedpErrorMsg").html(errMsg1 + errMsg2);
+
+            }
+
+        }
+    </script>
+    <script type="text/javascript">
+        function runNewQuote() {
+            if ($("#reservationform2").css("display") == "table") {
+                $("#reservationform2").css("display", "block");
+            }
+            $("#reservationform2").slideUp(1000);
+            if ($("#reservationform3").css("display") == "table") {
+                $("#reservationform3").css("display", "block");
+            }
+            $("#reservationform3").slideUp(1000);
+            if ($("#reservationform").css("display") != "none") {
+                $("#reservationform").css("display", "none");
+            }
+            $("#reservationform").slideDown(1000);
+        }
+    </script>
+    <script type="text/javascript">
+        function shareQuote() {
+            if ($("#reservationform2").css("display") == "table") {
+                $("#reservationform2").css("display", "block");
+            }
+            $("#reservationform2").slideUp(1000);
+            if ($("#reservationform3").css("display") != "none") {
+                $("#reservationform3").css("display", "none");
+            }
+            $("#reservationform3").slideDown(1000);
+        }
+    </script>
+    <script type="text/javascript">
+        function BookIt() {
+            var dates = "";
+            dates = myQuote();
+
+            if (dates.length != "") {
+                window.location = "[book]" + dates;
+            }
+        }
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var i = 1;
+            for (i; i <= 3; i++) {
+                $("#relatedPropertyContianer" + i).fadeIn(500);
+                $("#SimilarPropertiesLastVisableItem").val(i);
+            };
+
+            try {
+                $("#ReviewsControl").appendTo("#reviews");
+            }
+            catch (err) {
+            }
+            try {
+                $("#availabilityControl").appendTo("#availability");
+            }
+            catch (err) {
+            }
+            try {
+                $("#RatesControlContainer").appendTo("#rates");
+            }
+            catch (err) {
+            }
+
+            if ($("#relatedProperties").length == 0) {
+                $("#similarstuff").remove();
+
+
+            }
+        });
+
+        function emailQuote() {
+            var valid = true;
+
+            if (($("#Guest1").val() == "")) {
+                valid = false;
+                $("#Guest1").css("border", "1px solid red");
+            }
+            else {
+                $("#Guest1").css("border", "1px solid #ccc");
+            }
+
+            if (($("#Email1").val() == "") || ($("#Email1").val().indexOf("@") == (-1)) || ($("#Email1").val().indexOf(".") == (-1))) {
+                valid = false;
+                $("#Email1").css("border", "1px solid red");
+            }
+            else {
+                $("#Email1").css("border", "1px solid #ccc");
+            }
+
+            if (valid) {
+                var dates = "";
+                dates = myQuote();
+
+                var emails = $("#Email1").val().toString()
+                var guests = $("#Guest1").val().toString()
+
+                $(".Email").each(function (index, element) {
+                    if ($(this).val() != "") {
+                        emails = emails + "," + $(this).val().toString();
+                    }
+                });
+
+                $(".Guest").each(function (index, element) {
+                    if ($(this).val() != "") {
+                        guests = guests + "," + $(this).val().toString();
+                    }
+                });
+
+                if (dates != "") {
+                    var htm = '<iframe style="margin-left: -25px;" id="ifrmQuote" name="ifrm" src="/EmbedQuoter.aspx?PropertyID=[propertyid]&Rows=4&Cols=3' + dates + '&email=' + emails + '&gnames=' + guests + '" scrolling="auto" height="500" style="width: 100%;" frameborder="3" onload="processingComplete()">Unable to show Quoter</iframe>';
+                    console.log(htm);
+                    $("#emailQuote").html(htm);
+                }
+                else {
+                    alert("Please check entered names and e-mails and try again.");
+                }
+            }
+        }
+    </script>
+    <script src="/WebTemplates/39617/includes/js/room-single-1.js"></script>
+    <script src="/WebTemplates/39617/includes/js/detailsPage.js"></script>
+</main>
+<style>
+    @media screen and (min-width:767px) {
+        #detailsContent .fotorama__wrap,
+        #detailsContent .fotorama__stage,
+        #detailsContent .fotorama__stage__shaft {
+            width: 840px !important;
+        }
+
+        #detailsContent #room-description {
+            margin-top: 50px;
+        }
+    }
+
+    @media screen and (max-width:1199px) {
+        #detailsContent .fotorama__wrap,
+        #detailsContent .fotorama__stage,
+        #detailsContent .fotorama__stage__shaft {
+            width: 667px !important;
+        }
+    }
+
+    @media screen and (max-width:980px) {
+        #detailsContent .fotorama__wrap,
+        #detailsContent .fotorama__stage,
+        #detailsContent .fotorama__stage__shaft {
+            width: 720px !important;
+        }
+
+        #detailsContent #room-description p:last-child {
+            padding-bottom: 0;
+        }
+
+        #detailsContent #sidebar #check-room {
+            margin-top: 70px;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        #detailsContent .fotorama__wrap,
+        #detailsContent .fotorama__stage,
+        #detailsContent .fotorama__stage__shaft {
+            width: 670px !important;
+        }
+    }
+
+    @media screen and (max-width:767px) {
+        #detailsContent #check-room, #sidebar #check-room {
+            max-width: 100%;
+        }
+
+        #detailsContent #room-description {
+            margin-top: 50px;
+        }
+    }
+
+    @media screen and (max-width:736px) {
+        #detailsContent .pdroundedcorners {
+            max-width: 636px;
+            overflow-x: scroll;
+        }
+    }
+
+    @media screen and (max-width:668px) {
+        #detailsContent .fotorama__wrap,
+        #detailsContent .fotorama__stage,
+        #detailsContent .fotorama__stage__shaft {
+            width: 570px !important;
+        }
+
+        #detailsContent #room-description ul.tabs li {
+            height: 40px;
+        }
+    }
+
+    @media screen and (max-width:640px) {
+        #detailsContent .pdroundedcorners {
+            max-width: 541px;
+        }
+    }
+
+    @media screen and (max-width:600px) {
+        #detailsContent .fotorama__wrap,
+        #detailsContent .fotorama__stage,
+        #detailsContent .fotorama__stage__shaft {
+            width: 520px !important;
+        }
+
+        #detailsContent .pdroundedcorners {
+            max-width: 494px;
+        }
+    }
+
+    @media screen and (max-width:568px) {
+        #detailsContent .fotorama__wrap,
+        #detailsContent .fotorama__stage,
+        #detailsContent .fotorama__stage__shaft {
+            width: 490px !important;
+        }
+
+        #detailsContent .pdroundedcorners {
+            max-width: 465px;
+            display: none;
+        }
+
+        #detailsContent #room-description .pdroundedcorners {
+            display: block;
+        }
+
+        #detailsContent .pdroundedcorners {
+            max-width: 465px;
+        }
+    }
+
+    @media screen and (max-width:480px) {
+        .details_page.slider-box h1 {
+            font-size: 20px;
+        }
+
+        #detailsContent .fotorama__wrap,
+        #detailsContent .fotorama__stage,
+        #detailsContent .fotorama__stage__shaft {
+            width: 410px !important;
+        }
+
+        #detailsContent .pdroundedcorners {
+            max-width: 389px;
+        }
+    }
+
+    @media screen and (max-width:414px) {
+        #detailsContent .fotorama__wrap,
+        #detailsContent .fotorama__stage,
+        #detailsContent .fotorama__stage__shaft {
+            width: 360px !important;
+        }
+    }
+
+    @media screen and (max-width:384px) {
+        #detailsContent .fotorama__wrap,
+        #detailsContent .fotorama__stage,
+        #detailsContent .fotorama__stage__shaft {
+            width: 340px !important;
+        }
+    }
+
+    @media screen and (max-width:375px) {
+        .details_page.slider-box h1 {
+            font-size: 18px;
+        }
+
+        #detailsContent .fotorama__wrap,
+        #detailsContent .fotorama__stage,
+        #detailsContent .fotorama__stage__shaft {
+            width: 320px !important;
+        }
+    }
+
+    @media screen and (max-width:320px) {
+        .details_page.slider-box h1 {
+            font-size: 15px;
+        }
+
+        #detailsContent .fotorama__wrap,
+        #detailsContent .fotorama__stage,
+        #detailsContent .fotorama__stage__shaft {
+            width: 270px !important;
+        }
+    }
+
+    #reservationform2 p {
+        color: white;
+    }
+</style>
