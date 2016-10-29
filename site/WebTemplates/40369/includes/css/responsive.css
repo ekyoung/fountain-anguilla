@@ -48,12 +48,12 @@
 	.slider-helper .carousel-caption{
 		margin-bottom: -29px;
 	}
+}
+@media screen and (max-width: 991px){
 	#logo {
 		width: 293px;
-		padding-top: 44px;
+		padding: 64px 0 20px;
 	}
-}
-@media screen and (max-width:980px){
 	.homepage .parslide .carousel-caption{
 		display: block !important;
 		margin-bottom: 75px;
@@ -80,9 +80,6 @@
 	.ourservice p{
 		padding-bottom: 30px;
 	}
-    #logo {
-        padding-bottom: 63px;
-    }
 
 	.slider-helper .carousel-caption{
 	display: block !important;
@@ -149,9 +146,6 @@
 	.container, body.mapsearch_page .container {
 	    width: 700px;
 	}
-    #logo {
-	    padding-bottom: 116px;
-	}
 	.group h4{
 		padding-top: 15px;
     	padding-bottom: 13px;
@@ -203,6 +197,18 @@
 	}
 	.homepage .parslide .carousel-indicators {
 	    margin-bottom: 100px;
+	}
+	.slider-box .item {
+		overflow: hidden;
+		height: 320px;
+	}
+	.slider-box img{
+		height: 320px !important;
+		width: auto;
+		position: absolute;
+		left: 50%;
+		margin-left: -384px;
+		max-width: 10000px !important; 
 	}
 	#check-room {
 		padding-top: 0;
@@ -304,9 +310,6 @@
 	.slider-helper .carousel-caption {
 	    margin-bottom: 0px;
 	}
-    #logo {
-	    padding-bottom: 146px;
-	}
 	.contact_page.parslide {
 	    margin: -350px auto 0;
 	}
@@ -341,9 +344,6 @@
 	}
 	.slider-helper .button-slide {
 	    margin-top: 20px;
-	}
-    #logo {
-	    padding-bottom: 169px;
 	}
 	#check-room {
 	    margin-top: 0;
@@ -384,9 +384,6 @@
 	.container, body.mapsearch_page .container{
 	    width: 390px;
 	}
-    #logo {
-    	padding-bottom: 187px;
-	}
 	.homepage .slider-box h1 {
 	    font-size: 30px;
 	}
@@ -417,9 +414,6 @@
 	}
 	.slider-helper .carousel-caption {
 	    margin-bottom: -10px;
-	}
-    #logo {
-	    padding-bottom: 209px;
 	}
 	#questions .wow{
 		width: 17%;

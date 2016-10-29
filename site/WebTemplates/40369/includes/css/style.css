@@ -473,7 +473,7 @@ img.iclflag{
 } 
 /*************SLIDE BOX************/
 .parslide {
-  margin: -300px auto 0;
+  margin: -160px auto 20px;
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -503,12 +503,9 @@ img.iclflag{
   overflow-x: hidden;
   overflow-y: hidden;
   width: 100%;
-  /*border: 10px solid rgb(255, 255, 255);*/
 }
 .slider-box img{
-  /*border: 10px solid #fff;*/
-  /*border-radius: 0 0 50% 50% / 0 0 19% 19%;*/
-  width: 100%;
+  width: 100%;  
 }
 .parslide .carousel-caption span{
   font-weight: 900;
