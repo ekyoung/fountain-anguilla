@@ -61,19 +61,6 @@
 	.homepage .parslide .carousel-indicators {
 	    margin-bottom: 85px;
 	}
-	#check-room{
-		margin-top: -95px;
-	}
-	#check-room .bookbtn{
-		margin-top: 25px;
-		padding: 10px 0;
-	}
-	.bookbtn span{
-		font-size: 30px;
-	}
-	.bookbtn a{
-		font-size: 15px;
-	}
 	.ourservice h2{
 		padding-top: 55px;
 	}
@@ -146,19 +133,6 @@
 	.container, body.mapsearch_page .container {
 	    width: 700px;
 	}
-	.group h4{
-		padding-top: 15px;
-    	padding-bottom: 13px;
-	}
-	#check-room .bookbtn{
-		margin-top: 20px;
-	}
-	.bookbtn span {
-	    font-size: 25px;
-	}
-	.bookbtn a {
-	    font-size: 15px;
-	}
 	#checkoutroom img {
 	    height: 300px;
 	}
@@ -210,11 +184,10 @@
 		margin-left: -384px;
 		max-width: 10000px !important; 
 	}
-	#check-room {
-		padding-top: 0;
-	    margin-top: -90px;
-	    top: 0;
-	}
+	/*.bookbtn {
+		padding-top: 43px;
+		padding-bottom: 15px;
+	}*/
 	#why_choose_us{
 		margin-top: 25px;
 	}
@@ -256,9 +229,6 @@
 @media screen and (max-width:668px){
 	.container, body.mapsearch_page .container {
 	    width: 600px;
-	}
-	#check-room{
-		margin-top: -100px;
 	}
 	#detailsContent .fotorama__wrap,
 	#detailsContent .fotorama__stage,
@@ -343,9 +313,6 @@
 	}
 	.slider-helper .button-slide {
 	    margin-top: 20px;
-	}
-	#check-room {
-	    margin-top: 0;
 	}
 	.slider-box h1{
 		font-size: 25px;

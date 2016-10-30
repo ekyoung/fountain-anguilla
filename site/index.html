@@ -322,58 +322,44 @@ function __doPostBack(eventTarget, eventArgument) {
 
 <section id="check-room">
     <div class="container">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 check-room">
-            <div class="form">
-                <div class="col-xs-12 col-md-9 custom-form">
-                    <div class="col-xs-6 col-sm-3 col-md-3 adults group">
-                        <h4>Destination</h4>
-                        <div class="mylabel">
-                            <div class="mylabel">
-                                <select class="ul-room-2 locationID">
-                                    <option />Any
-                                    
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-3 col-md-3 arrival group">
-                        <h4>Arrival Date</h4>
-                        <label class="add-on" for="for1"><i class="ion-android-calendar date1"></i></label>
-                        <input name="arrive" class="dateclick DateFrom" id="DateFrom" type="text" placeholder="mm/dd/yyyy" value="" />
-                    </div>
-                    <div class="col-xs-6 col-sm-3 col-md-3 departure group">
-                        <h4>Departure Date</h4>
-                        <label class="add-on" for="for2"><i class="ion-android-calendar date2"></i></label>
-                        <input name="depart" class="dateclick DateTo" id="DateTo" type="text" placeholder="mm/dd/yyyy" value="" />
-                    </div>
-                    <div class="col-xs-6 col-sm-3 col-md-3 room group">
-                        <h4>Guests</h4>
-                        <div class="mylabel">
-                            <select class="ul-room-2 Sleeps">
-                                <option />Any
-                                <option value="1" />1
-                                <option value="2" />2
-                                <option value="3" />3
-                                <option value="4" />4
-                                <option value="5" />5
-                                <option value="6" />6
-                                <option value="7" />7
-                                <option value="8" />8
-                                <option value="9" />9
-                                <option value="10" />10
-                                <option value="11" />11
-                                <option value="12" />12
-                            </select>
-                        </div>
-                    </div>
+        <div class="form custom-form row">
+            <div class="col-xs-6 col-sm-3 col-md-3 arrival group">
+                <h4>Arrival Date</h4>
+                <label class="add-on" for="for1"><i class="ion-android-calendar date1"></i></label>
+                <input name="arrive" class="dateclick DateFrom" id="DateFrom" type="text" placeholder="mm/dd/yyyy" value="" />
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3 departure group">
+                <h4>Departure Date</h4>
+                <label class="add-on" for="for2"><i class="ion-android-calendar date2"></i></label>
+                <input name="depart" class="dateclick DateTo" id="DateTo" type="text" placeholder="mm/dd/yyyy" value="" />
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3 room group">
+                <h4>Guests</h4>
+                <div class="mylabel">
+                    <select class="ul-room-2 Sleeps">
+                        <option />Any
+                        <option value="1" />1
+                        <option value="2" />2
+                        <option value="3" />3
+                        <option value="4" />4
+                        <option value="5" />5
+                        <option value="6" />6
+                        <option value="7" />7
+                        <option value="8" />8
+                        <option value="9" />9
+                        <option value="10" />10
+                        <option value="11" />11
+                        <option value="12" />12
+                    </select>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-3  bookbtn group" onclick="smit();">
-                    <a class="btn-check" href="javascript:void(0)"><span>Check</span><br /> Availability</a>
-                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3 bookbtn group" onclick="smit();">
+                <a class="btn-check" href="javascript:void(0)">Search</a>
             </div>
         </div>
     </div>
 </section>
+
 <main>
     <section id="why_choose_us" class="copy">
         <div class="container">
