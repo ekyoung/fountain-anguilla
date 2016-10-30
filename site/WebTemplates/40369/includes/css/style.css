@@ -668,7 +668,6 @@ main{
   text-align: center;
 }
 .img_zoom img{
-  border-radius: 3px;
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: all 0.7s ease;

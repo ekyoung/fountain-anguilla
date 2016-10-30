@@ -23,9 +23,6 @@
 .main-content{
   padding-right: 45px;
 }
-#content{
-  margin-top: 90px;
-}
 h2{
   font-family: 'Playfair Display';
   font-size: 36px;
@@ -39,7 +36,6 @@ h2{
 }
 .img_zoom img{
   width: 100%;
-  border-radius: 5px;
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: all 0.7s ease;
@@ -52,7 +48,6 @@ h2{
   transform: scale(1.2);
   -webkit-transition: all 0.7s ease;
   transition: all 0.7s ease;
-  border-radius:5px;
   opacity: 1;
 }
 .title_room{
@@ -69,13 +64,9 @@ h2{
     font-size: 14px;
     padding-bottom: 25px;
     line-height: 1.7;
-
 }
-    .rooms-description ul {
-        margin-top: 14px;
-    }
-.infor-detail{
-  margin-bottom: 50px;
+.rooms-description ul {
+    margin-top: 14px;
 }
 #room-last{
   margin-bottom: 100px;
@@ -366,60 +357,6 @@ input:-moz-placeholder { color:#0c2340; }
 footer ul.site-links{
   padding-left: 0;
 }
-/*-----------------------RESPONSIVE------------------*/
-@media (min-width: 992px) and (max-width: 1199px) {
-  #contact-room figcaption{
-    top: 25px;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .main-content{
-    padding-right: 15px;
-  }
-}
-@media only screen and (max-width: 767px){
-  #contact-room,.sub-room,#check-room,.apartment-room > figcaption{
-    margin: auto;
-    max-width: 400px;
-  }
-  .sub-room{
-    margin-top: 50px;
-  }
-  #contact-room{
-    margin-bottom: 100px;
-  }
-  .img_zoom img{
-    width: auto;
-    margin: auto;
-  }
-}
-@media (min-width: 480px) and (max-width: 767px) {
-  .main-content{
-    padding-right: 15px;
-  }
-  #check-room {
-    margin-top: 50px;
-  }
-  .sub-img{
-    width: 21%;
-  }
-
-  #check-room .bookbtn {
-    border-radius: 0 0 5px 5px;
-    margin-top: 30px;
-  }
-}
-@media (max-width:479px) {
-  .main-content{
-    padding-right: 15px;
-  }
-  .style_h3{
-    font-size: 34px;
-  }
-  .col-xs-12.col-sm-12.col-md-3.col-lg-3{
-    margin-top: -50px;
-  }
-}
 #check-room {
     top: 0px !important;
 }
@@ -432,6 +369,10 @@ input[type="radio"], input[type="checkbox"] {
 }
 .sub-room ul {
     margin-left: 7px;
+}
+.apartment-room {
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .apartment-room h5 span {
     font-weight: bold;
@@ -489,10 +430,66 @@ input[type="radio"], input[type="checkbox"] {
     -ms-transition: all 0.5s;
 }
 .img_zoom {
-    border-radius: 5px;
-    height: 270px;
     overflow: hidden;
+    height: 270px;
 }
 .title_room {
     font-size: 17pt;
+}
+/*-----------------------RESPONSIVE------------------*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #contact-room figcaption{
+    top: 25px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-content{
+    padding-right: 15px;
+  }
+}
+@media only screen and (max-width: 767px){
+  #contact-room,.sub-room,#check-room,.apartment-room > figcaption{
+    margin: auto;
+    max-width: 400px;
+  }
+  .sub-room{
+    margin-top: 50px;
+  }
+  #contact-room{
+    margin-bottom: 100px;
+  }
+  .img_zoom {
+    height: auto;
+  }
+  .img_zoom img{
+    width: auto;
+    margin: auto;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .main-content{
+    padding-right: 15px;
+  }
+  #check-room {
+    margin-top: 50px;
+  }
+  .sub-img{
+    width: 21%;
+  }
+
+  #check-room .bookbtn {
+    border-radius: 0 0 5px 5px;
+    margin-top: 30px;
+  }
+}
+@media (max-width:479px) {
+  .main-content{
+    padding-right: 15px;
+  }
+  .style_h3{
+    font-size: 34px;
+  }
+  .col-xs-12.col-sm-12.col-md-3.col-lg-3{
+    margin-top: -50px;
+  }
 }
