@@ -357,32 +357,6 @@ input:-moz-placeholder { color:#0c2340; }
 .group label{
   display: block;
 }
-/*
-.btn-more{
-  background-color: #d4f5ff;
-  padding: 11px;
-  border-radius: 0px;
-  font-family: "Lato", sans-serif;
-  text-align: center;
-  font-weight: 900;
-}
-.btn-more a {
-  color: #0c2340;
-  font-family: "Lato";
-  font-weight: 900;
-  text-transform: uppercase;
-  font-size: 14px;
-  text-decoration: none;
-}
-.btn-more a:hover {
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  color: #f3f3f3;
-}
-*/
 .button-check {
   margin-left: 15px;
   margin-right: 15px;
@@ -390,7 +364,12 @@ input:-moz-placeholder { color:#0c2340; }
   padding-bottom: 12px;
   padding-top: 12px;
 }
-
+.book-direct {
+  margin-top: 20px;
+}
+.book-direct p {
+    font-size: 17px;
+}
 #infor-room{
   font-family: 'Playfair Display';
   background: #d4f5ff;
