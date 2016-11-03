@@ -582,13 +582,12 @@ p.slide-subtitle {
 #check-room {
   position: relative;
   background-color: #2568A7;
-  padding: 15px;
+  padding: 0;
 }
 #check-room input, #check-room select {
   padding: 0px 15px;
-  height: 2.8em;
+  height: 35px;
   line-height: 1.0em;
-  padding: 0px 15px;
 }
 #check-room label{
   display: inline;
@@ -601,22 +600,22 @@ p.slide-subtitle {
   font-family: "Amiri", serif;
   font-size: 14px;
   font-weight: 700;
-  padding-top: 15px;
-  padding-bottom: 13px;
+  padding-top: 10px;
+  padding-bottom: 8px;
 }
 .bookbtn {
   text-align: center;
-  padding-top: 43px;
+  padding-top: 33px;
   padding-bottom: 15px;
 }
 .bookbtn a {
   background-color: #fff;
   display: block;
-  padding: 8px;
+  padding: 7px;
   text-align: center;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.2;
   font-family: "Amiri", serif;
   font-weight: 900;
