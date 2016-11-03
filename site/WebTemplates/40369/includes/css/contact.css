@@ -55,10 +55,6 @@
 .container{
   color: #062643;
 }
-
-#main-content{
-  margin-top: 90px;
-}
 .caption-contact{
   text-align: center;
 }
@@ -269,9 +265,6 @@
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 640px) {
   .contact-connect{
-    margin-top: 50px;
-  }
-  #main-content{
     margin-top: 50px;
   }
   #Google-Map iframe{
