@@ -646,7 +646,7 @@ main{
 }
 .copy p {
   line-height: 2;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 /************WHY CHOOSE US***************/
 #why_choose_us {
@@ -654,9 +654,6 @@ main{
     float: left;
     margin-top: 60px;
     margin-bottom: 60px;
-}
-#why_choose_us h3{
-  padding: 22px 0;
 }
 #why_choose_us i{
   color: #8a9bad;
