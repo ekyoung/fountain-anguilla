@@ -648,6 +648,19 @@ main{
   line-height: 2;
   margin: 20px 0;
 }
+
+.copy ul {
+  padding-left: 20px;
+  list-style: disc outside none;
+  margin: 20px 0;
+}
+
+.copy ul > li {
+  font-size: 14px;
+  line-height: 2;
+  padding-left: 4px;
+}
+
 /************WHY CHOOSE US***************/
 #why_choose_us {
     width: 100%;
