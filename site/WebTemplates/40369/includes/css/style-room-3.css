@@ -223,6 +223,10 @@ input:-moz-placeholder { color:#0c2340; }
   font-weight: 700;
       margin-top: 11px;
 }
+
+.copy p {
+  font-size: 17px;
+}
 /*CSS .sub-room */
 .sub-room{
   margin: 50px 0px;
