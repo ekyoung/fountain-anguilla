@@ -55,7 +55,9 @@ footer{
   font-size: 14px;
   padding-right: 15px;
 }
-
+.tripadvisor-widget {
+  margin-left: -10px;
+}
 .social-icons {
   font-size: 20px;
 }
@@ -63,7 +65,6 @@ footer{
   margin-right: 20px;
   float: left;
 }
-
 #SubscribeEmail, #SubscribeLastName, #SubscribeFirstName{
   background-color: #59677a;
   line-height: 20px;
