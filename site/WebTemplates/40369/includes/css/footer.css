@@ -39,7 +39,6 @@ footer{
 }
 #newsletter{
   max-width: 300px;
-  text-align: right;
 }
 #links, #about, #newsletter{
   margin-bottom: 30px;
@@ -47,9 +46,6 @@ footer{
 }
 #links ul li{
   display: block;
-}
-#about{
-  text-align: center;
 }
 #links a{
   font-size: 14px;
@@ -59,65 +55,15 @@ footer{
   font-size: 14px;
   padding-right: 15px;
 }
-.about-us::before{
-  background: url("../../images/symbol-footer.png") no-repeat scroll 50% 0%;
-  position: relative;
-  display: block;
-  top: 0;
-  content: "";
-  width: 100%;
-  height: 10px;
-  padding-top: 15px;
-  padding-bottom: 10px;
-  margin-top: 16px;
-}
-.about-us::after{
-  background: url("../../images/symbol-footer.png") no-repeat scroll 50% 0%;
-  position: relative;
-  display: block;
-  top: 0;
-  content: "";
-  width: 100%;
-  height: 10px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  margin-top: 21px;
-}
-.iconicons{
-  text-align: center;
-  display: inline-block;
-}
-.iconicons ul{
-  display: block;
-}
-.iconicons ul li {
-  float: left;
-  height: 35px;
-  line-height: 35px;
-  padding: 0;
-  position: relative;
-  width: 35px;
-}
-.iconicons ul li a{
+
+.social-icons {
   font-size: 20px;
 }
-.iconicons li:hover {
-  background: transparent none repeat scroll 0 0;
-  border-color: #ad9b49;
-  color: #ad9b49;
-}
-.iconicons li:hover i{
-  color:#ad9b49;
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  -ms-transition: all 0.5s;
+.social-icons li {
+  margin-right: 20px;
+  float: left;
 }
 
-.iconicons li:last-child{
-  padding-right: 0;
-}
 #SubscribeEmail, #SubscribeLastName, #SubscribeFirstName{
   background-color: #59677a;
   line-height: 20px;
@@ -210,10 +156,6 @@ footer{
   -ms-transition: all 0.5s;
 }
 footer ul.site-links {
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
-  -o-columns: 2;
   padding-left: 15px;
   display: inherit;
 }
@@ -264,78 +206,4 @@ input, textarea, select{
   display: inline-block;
   padding: 8px 0.8em;
   font-size: 14px;
-}
-/**************RESPONSIVE*****************/
-@media screen and (min-width: 1200px) and (max-width: 1253px) { 
-
-}
-@media only screen and (min-width: 1170px){
-
-  #newsletter{
-    float: right;
-  }
-
-}
-@media (min-width: 1200px) {
-  .iconicons ul li{
-    margin-right: 3px;
-  }
-}
-@media screen and (min-width: 992px) and (max-width: 1008px) { 
-
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  #SubscribeEmail, #SubscribeLastName, #SubscribeFirstName{
-    width: 270px;
-  }
-}
-@media (max-width: 991px) {
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .iconicons ul li{
-    margin-right: 0px;
-  }
-}
-@media (max-width: 767px) {
-
-}
-@media (min-width: 480px) and (max-width: 767px) {
-  #links h4{
-    text-align: center;
-  }
-  #links {
-    max-width: 100%;
-  }
-  footer ul.site-links {
-    -moz-columns: 2 auto;
-    columns: 2 auto;
-    -webkit-columns: 2 auto;
-    -o-columns: 2 auto;
-    margin-left: 20%;
-    padding: 0;
-  }
-  #newsletter{
-    max-width: 100%;
-    text-align: center;
-  }
-}
-@media (max-width: 479px) {
-  #links h4{
-    text-align: center;
-  }
-  #links {
-    max-width: 100%;
-  }
-  footer ul.site-links {
-    -moz-columns: 2 auto;
-    columns: 2 auto;
-    -webkit-columns: 2 auto;
-    -o-columns: 2 auto;
-    margin-left: 10%;
-    padding: 0;
-  }
-  #newsletter{
-    max-width: 100%;
-    text-align: center;
-  }
 }

@@ -1692,9 +1692,6 @@ width: 270px;
   #deal-content{
     padding-left: 0px;
   }
-  .iconicons ul li{
-    margin-right: 0px;
-  }
 }
 @media (max-width: 767px) {
   .img_zoom img{
