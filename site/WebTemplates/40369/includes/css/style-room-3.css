@@ -51,13 +51,10 @@ h2{
   opacity: 1;
 }
 .title_room{
-  font-family: 'Playfair Display';
   font-weight: 900;
 }
 .style_h3{
   padding: 21px 0 16px;
-  font-family: 'Playfair Display';
-  font-size: 36px;
 }
 .rooms-description {
     font-family: "Lato";
